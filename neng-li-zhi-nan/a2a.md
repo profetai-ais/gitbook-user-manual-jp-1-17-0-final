@@ -126,6 +126,22 @@ A2A ページ自体にも、ページを開ける人や項目を追加できる�
 
 協働に関するほかの操作は、[チャット Agent - Coordination](../agent-zhi-nan/liao-tian-agent.md#agent-xie-zuo) を参照してください。
 
+### Agent 間の会話を確認する <a href="#cha-kan-agent-zhi-jian-de-dui-hua" id="cha-kan-agent-zhi-jian-de-dui-hua"></a>
+
+Agent が外部 Agent に質問を委任した場合、双方が実際にやり取りした内容を確認できます。Agent が何を質問し、相手がどう回答したかを確かめられます。
+
+<figure><img src="../.gitbook/assets/a2a-agents-conversation.png" alt=""><figcaption></figcaption></figure>
+
+1. 会話で、該当する回答の上にある実行状態をクリックすると、右側に「実行の詳細」が開きます。
+2. 「Agent 間の会話」タブに切り替えます。
+
+<table data-search="false"><thead><tr><th width="90">項目</th><th width="157">名前</th><th>説明</th></tr></thead><tbody><tr><td>1</td><td>実行状態</td><td>クリックすると「実行の詳細」が開きます</td></tr><tr><td>2</td><td>Agent 間の会話</td><td>外部 Agent に委任した回答にのみ表示されるタブです</td></tr><tr><td>3</td><td>自分の Agent</td><td>外部 Agent に送った質問です。Agent 名が表示されます</td></tr><tr><td>4</td><td>外部 Agent</td><td>相手の回答です。名前、「External」ラベル、回答時刻が表示されます。内容が長い場合は折りたたまれており、展開すると全文を確認できます</td></tr></tbody></table>
+
+* 相手の回答が失敗した場合は、警告のスタイルで表示されます。回答を受け取れなかった場合は、「相手からの回答がありません」とエラーの概要が表示されます。
+* 同じ回答の中で複数回委任した場合は、各回が時間順に表示されます。
+
+> 注意：回答の上に実行状態が表示されるのは、Agent の「会話パネル → チャット表示」で「実行プロセス」をオンにしている場合のみです。詳しくは [チャット Agent - 実行プロセス](../agent-zhi-nan/liao-tian-agent.md#zhi-xing-guo-cheng) を参照してください。Web App から開いた会話には、このタブは表示されません。
+
 ## FAQ
 
 <details>

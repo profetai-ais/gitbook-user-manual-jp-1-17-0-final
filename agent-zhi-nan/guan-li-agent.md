@@ -46,6 +46,22 @@ Agent 一覧で該当する行の編集ボタンをクリックすると、ク�
 2. 確認ウィンドウには元の Agent の名前が自動で入力されます。元の Agent と区別しやすいよう、新しい名前に変更できます。
 3. 確認をクリックするとコピーした Agent が作成されます。キャンセルをクリックすると作成されません。
 
+## 使用中の Agent を確認する
+
+<figure><img src="../.gitbook/assets/agent-in-use-button.png" alt=""><figcaption></figcaption></figure>
+
+Agent は、ほかの Agent の「Coordination」に追加され、SubAgent として使われることがあります。Agent を変更または削除する前に、どの Agent に使われているかを確認しておくと、それらの Agent の回答への影響を避けられます。
+
+Agent 一覧の任意の行にマウスカーソルを合わせ、「使用中の Agent」ボタンをクリックすると、この Agent を SubAgent として使っている Agent を確認できます。
+
+<figure><img src="../.gitbook/assets/agent-in-use-dialog.png" alt=""><figcaption></figcaption></figure>
+
+ウィンドウには、上位の各 Agent の公開状態、名前、作成者と、その Agent が使っている SubAgents が表示されます。どの Agent にも使われていない場合は、データがない旨が表示されます。
+
+### 使用中の Agent を削除する
+
+ほかの Agent に SubAgent として使われている Agent は、そのままでは削除できません。「この Agent は次の Agent で SubAgent として使用されています。これらの Agent から削除してから、削除してください。」というメッセージが表示されるので、表示された Agent の「Coordination」から先に削除し、その後で削除し直してください。
+
 ## Agent のエクスポート／インポート（JSON）
 
 エクスポート／インポート機能は、Agent の設定のバックアップ、環境間での設定の移行、似た Agent のすばやい複製による設定作業の削減に利用できます。

@@ -52,6 +52,7 @@
 
 * [スケジュール](gong-zuo-zhi-nan/pai-cheng.md)
 * [Webhook 連携ガイド](gong-zuo-zhi-nan/webhook-jie-jie-zhi-nan.md)
+* [BI ダッシュボード](gong-zuo-zhi-nan/bi-yi-biao-ban.md)
 
 ## 能力ガイド
 
