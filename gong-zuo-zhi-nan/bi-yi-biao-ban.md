@@ -5,7 +5,7 @@ description: >-
 
 # BI ダッシュボード
 
-## BI ダッシュボードとは <a href="#bi-yi-biao-ban-shi-shen-me" id="bi-yi-biao-ban-shi-shen-me"></a>
+## BI ダッシュボードとは <a href="#bi-yi-biao-ban-shi-shen-mo" id="bi-yi-biao-ban-shi-shen-mo"></a>
 
 BI ダッシュボードは、データを数値カード、グラフ、明細表にまとめ、AI が分析のインサイトを書き添えます。ダッシュボードに置ける内容は次の 2 種類で、同じダッシュボードに共存できます。
 
